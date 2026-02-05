@@ -12,12 +12,6 @@
 #     shield: reviung41
 #
 ---
-projects:
-  - name: zmk
-    remote: zmkfirmware
-    revision: v0.3.0
-    import: app/west.yml
-
 include:
   - board: nice_nano
     shield: lily58_left nice_view_adapter toast_view
